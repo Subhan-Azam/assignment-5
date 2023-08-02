@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    height: 4000px;
+    box-shadow: -9px -9px -9px -9px
+}
+
+/* Page-1 */
+#head {
+    background-image: url('2904dd3e-432f-4ef2-94d4-f652732f07bf.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#navbar-1 #head-text {
+    margin-left: 40px;
+}
+
+.head-text {
+    margin-left: 40px;
+}
+
+#navbar-1 {
+    height: 0px;
+}
+
+#navbar-1 img {
+    margin-top: 30px;
+}
+
+#navbar-2 {
+    margin: 50px 70px 0px 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#navbar-2 a {
+    margin-right: 25px;
+    color: white;
+    float: right;
+}
+
+#navbar-2 a:hover {
+    color: rgba(255, 255, 255, 0.678);
+}
+
+#navbar-2 a {
+    text-decoration: none;
+}
+
+.col-8 h1 {
+    color: white;
+    margin-top: 130px;
+    font-size: 60px;
+}
+
+.col-4 p {
+    color: white;
+    margin-top: 20px;
+}
+
+.head-button {
+    background-color: rgb(190, 39, 2);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 30px;
+    margin-top: 20px;
+    margin-left: 39px;
+}
+
+/* Page-2 */
+#bg-img-2 {
+    background-image: url('Screenshot 2023-01-19 081117.png');
+    height: 600px;
+}
+
+#bg-img-2 img {
+    border-radius: 100%;
+    width: 200px;
+    margin: 30px;
+}
+#bg-img-2 h1{
+    margin-top: 40px;
+}
+
+#bg-img-2 h1 {
+    color: red;
+}
+
+#bg-img-2 p {
+    color: red;
+    margin-top: 25px;
+}
+
+#bg-img-2 h4 {
+    color: red;
+}
+
+#bg-img-2 i {
+    color: red;
+}
+
+
+/* best-burger */
+#best-burger {
+    background-image: url('Shape.png');
+    height: 500px;
+}
+
+#best-burger .col-6 img {
+    border-radius: 100%;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.col-6 h1,
+p {
+    color: white;
+    margin-top: 160px;
+}
+
+.col-6 button {
+    border: none;
+    color: red;
+    margin-top: 15px;
+    padding: 4px 30px;
+    border-radius: 14px;
+}
+
+/* big-burger */
+
+#big-burger {
+    background-image: url('Screenshot 2023-01-19 081117.png');
+    height: 500px;
+}
+
+#big-burger-text h1 {
+    color: red;
+    margin-left: 250px;
+}
+
+#big-burger-text p {
+    color: red;
+    margin-left: 250px;
+}
+
+#big-burger .col-6 button {
+    background-color: red;
+    color: white;
+    margin-top: 15px;
+    margin-left: 250px;
+    padding: 4px 30px;
+    border-radius: 14px;
+}
+
+#big-burger .col-6 img {
+    border-radius: 100%;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+/*statistics */
+#statistics {
+    background-image: url('Shape.png');
+    height: 500px;
+}
+
+#statistics h1 {
+    margin-top: 30px;
+    color: white;
+}
+
+#statistics-circle {
+
+    border: 2px solid white;
+    color: white;
+    border-radius: 50%;
+    padding: 5% 0%;
+    margin: 5px 20px 20px 173px;
+    background-color: transparent;
+}
+
+/* popula-package */
+#popular-package {
+    background-image: url('Screenshot 2023-01-19 081117.png');
+    height: 700px;
+}
+#popular-package h1{
+    color: red; 
+    margin-top: 100px;
+}
+#card {
+    color: red;
+    margin: 0px;
+    padding: 50px 300px;
+}
+
+.card-body {
+    box-shadow: 3px 4px 9px 0px gray;
+
+}
+
+.card-text {
+    color: red;
+}
+
+.card-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    padding: 3px 50px;
+}
+
+/* barry handson */
+#barry-henderson {
+    background-image: url('Shape.png');
+    height: 500px;
+    color: white;
+}
+
+#barry-henderson-text {
+    margin: 160px 409px 28px 386px;
+}
+
+
+
+/* our updates */
+#second-last {
+    background-image: url('Screenshot 2023-01-19 081117.png');
+    height: 500px;
+}
+
+#second-last p {
+    color: red;
+}
+
+#second-last h1 {
+    color: red;
+    margin-top: 160px;
+}
+#search{
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 10px;
+}
+#second-last button{
+    border: none;
+    background-color: red;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    height: 350px;
+    width: 99%;
+}
+
+footer h4 {
+    color: white;
+}
+
+.footer-text {
+    margin: 50px 50px 20px 50px;
+}
+
+.app-logo {
+    margin: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.footer-link a{
+    text-decoration: none;
+    margin-top: 20px;
+    color: white;
+}
+.footer-link a:hover{
+    color: rgb(157, 191, 191);
+}
